@@ -32,7 +32,7 @@ body {
 }
 /* Typography */
 section {
-  padding: 14rem 0;
+  padding: 10rem 0;
 }
 /* main */
 .main {
@@ -42,12 +42,34 @@ section {
   margin-top: 10rem;
 }
 .main-content h1 {
+  margin-bottom: 4rem;
   font-family: 'ProximaNova_bold', sans-serif;
   font-size: 4rem;
+  line-height: 1.45;
   text-transform: uppercase;
 }
 .main-subtitle {
+  margin-bottom: 4rem;
   font-size: 2.4rem;
+}
+.main span {
+  display: inline-block;
+  padding: 3rem 5rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background-color: #46b814;
+  text-align: center;
+}
+.main span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.main-trigger {
+  display: block;
+  margin-top: 3rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNova_bold', sans-serif;
 }
 .header {
   height: 7rem;

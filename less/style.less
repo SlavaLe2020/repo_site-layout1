@@ -55,7 +55,7 @@ body {
 
 /* Typography */ 
 section {
-    padding: 14rem 0;
+    padding: 10rem 0;
 }
 
 /* main */ 
@@ -64,13 +64,35 @@ section {
     &-content {
         margin-top: 10rem;
         h1 {
+            margin-bottom: 4rem;
             .bold();
             font-size: 4rem;
+            line-height: 1.45;
             text-transform: uppercase;  
         }
     }
     &-subtitle {
+        margin-bottom: 4rem;
         font-size: 2.4rem;
+    }
+    span {
+        display: inline-block;
+        padding: 3rem 5rem;
+        font-size: 1.8rem;
+        color: @light;
+        background-color: @icons-color;
+        text-align: center;
+        strong {
+           font-size: 3rem;
+           .bold(); 
+        }
+    }
+    &-trigger {
+        display: block;
+        margin-top: 3rem;
+       font-size: 2.2rem;
+       text-transform: uppercase;
+       .bold(); 
     }
 }
 .header {
