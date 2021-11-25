@@ -35,6 +35,7 @@ font-family: 'ProximaNova_reg';
 @danger: #ff0000;
 @bg-light: #f5f5f5;
 @light: #fff;
+@border-input: #dddddd;
 
 /* Basic setting */ 
 html {
@@ -60,7 +61,9 @@ section {
 
 /* main */ 
 .main {
-    padding: 3rem 0;
+    padding: 3rem 0 5rem;
+    background: #fff url(../img/main-bg.jpg) center center no-repeat;
+    background-size: cover;
     &-content {
         margin-top: 10rem;
         h1 {
@@ -94,6 +97,43 @@ section {
        text-transform: uppercase;
        .bold(); 
     }
+    &-form {
+        padding: 4rem 5rem;
+        background-color: @light;
+        text-align: center;
+        &-header {
+            margin-bottom: 4rem;
+          font-size: 1.8rem;
+          strong {
+              font-size: 1.9rem;
+          }  
+        }
+        &-input {
+            display: block;
+            margin: 2rem 0;
+            width: 100%;
+            border: 1px solid @border-input;
+            padding: 1.5rem;
+        }
+        label {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            padding: 0.5rem; 
+            font-size: 1.3rem;
+            background-color: @light;
+        }
+        &-btn {
+            display: block;
+            width: 100%;
+            height: 5.5rem;
+            font-size: 1.6rem;
+        }
+        small {
+            display: block;
+            margin-top: 1.5rem;
+        }
+    }
 }
 .header {
     height: 7rem;
@@ -105,14 +145,20 @@ section {
     &-block {
         display: table-cell;
         vertical-align: middle;
+        text-align: right;
     }
 }
-.phone-link {
-    display: inline-block;
-    .bold();
-    font-weight: 900;
-    font-size: 1.7rem;
-    height: 7rem;
-    line-height: 7rem;
-    color: @text;
+.phone {
+    &-block {
+        text-align: right;
+    }
+    &-link {
+        display: inline-block;
+        .bold();
+        font-weight: 900;
+        font-size: 1.7rem;
+        height: 7rem;
+        line-height: 7rem;
+        color: @text;
+    }
 }
