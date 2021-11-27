@@ -7,6 +7,7 @@
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Автоматизированная штукатурка стен </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -68,6 +69,66 @@
             </div>
         </div>
     </main>
-    
+
+    <section class="features">
+        <div class="container">
+           <h2 class="section-header">
+               Преимущества работы с нами
+           </h2>
+           <div class="features-slider">
+               <div class="features-block">
+                   <div class="features-img">
+                        <picture>
+                            <source srcset="img/features/coin.svg" type="image/">
+                            <img src="img/features/coin.png" alt="Платите по факту">
+                        </picture>
+                   </div>
+                   <h3>Платите по факту</h3>
+                   <p>Вы оплачиваете работы только после их выполнения.<br>Никаких скрытых доплат и промежуточных платежей.</p>
+               </div>
+               <div class="features-block">
+                    <div class="features-img">
+                        <picture>
+                            <source srcset="img/features/folder.svg" type="image/">
+                            <img src="img/features/folder.png" alt="Заключаем договор">
+                        </picture>
+                   </div>
+                   <h3>Заключаем договор</h3>
+                   <p>Перед началом работ заключаем договор на юридическое лицо. <br>Вы можете быть уверены, что все обязательства будут выполнены.</p>
+               </div>
+               <div class="features-block">
+                   <div class="features-img">
+                        <picture>
+                            <source srcset="img/features/clock.svg" type="image/">
+                            <img src="img/features/clock.png" alt="Точно в срок">
+                        </picture>
+                   </div>
+                   <h3>Точно в срок</h3>
+                   <p>Работаем строго по установленным срокам, которые прописаны в договоре. Если не успеваем, Вы платите меньше.</p>
+               </div>
+               <div class="features-block">
+                    <div class="features-img">
+                        <picture>
+                            <source srcset="img/features/piggy-bank.svg" type="image/">
+                            <img src="img/features/piggy-bank.png" alt="Экономьте на материалах">
+                        </picture>
+                   </div>
+                   <h3>Экономьте на материалах</h3>
+                   <p>Мы являемся структурным подразделением компании поставщика строительных смесей gicema.ru и даем Вам самые выгодные цены.</p>
+               </div>
+           </div> 
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <script src="slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.features-slider').slick({
+
+            });
+        })
+    </script>
 </body>
 </html>
