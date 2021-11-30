@@ -51,9 +51,18 @@ section {
 }
 .section-header {
   margin: 2rem 0 10rem;
+  text-align: center;
+}
+.section-header_light {
+  color: #ffffff;
+  margin-top: 0;
+}
+.section-header h2 {
   font-family: 'ProximaNova_bold', sans-serif;
   font-size: 3.6rem;
-  text-align: center;
+}
+.section-header p {
+  font-size: 1.4rem;
 }
 /* main */
 .main {
@@ -202,6 +211,12 @@ section {
   right: 0;
   background: url(../img/features/right-arrow.svg) center no-repeat;
   background-size: 90%;
+}
+.price {
+  background: #46b814;
+}
+.price-header-btn {
+  margin-top: 2.5rem;
 }
 .popup {
   display: none;
