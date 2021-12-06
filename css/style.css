@@ -464,4 +464,11 @@ section {
   .feedback-next-btn {
     right: 0;
   }
+  .scheme {
+    background: none;
+    text-align: center;
+  }
+  .scheme-block {
+    min-height: 20rem;
+  }
 }
