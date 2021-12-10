@@ -438,6 +438,9 @@ section {
   background: url(../img/problems/problem.png) center no-repeat;
   background-size: 70%;
 }
+.problems-list_good {
+  border-color: #46b814;
+}
 .problems-list_good ul li:before {
   background: url(../img/problems/good.png) center no-repeat;
   background-size: 70%;
