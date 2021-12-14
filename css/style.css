@@ -473,6 +473,26 @@ section {
 .tour-subtitle {
   font-size: 2.2rem ;
 }
+.upsell {
+  background: #286b0a;
+}
+.upsell-block {
+  min-height: 30rem;
+  text-align: center;
+  color: #ffffff;
+}
+.upsell-blocks {
+  margin-top: 3rem;
+}
+.upsell-block img {
+  display: inline-block;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 30rem;
+}
+.upsell-block p {
+  font-size: 2rem;
+}
 .popup {
   display: none;
   position: fixed;
@@ -569,6 +589,10 @@ section {
   }
   .problems-women {
     display: none;
+  }
+  .tour {
+    background: none;
+    background-color: #f5f5f5;
   }
 }
 @media (max-width: 767px) {
