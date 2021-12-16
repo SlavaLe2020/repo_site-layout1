@@ -493,6 +493,25 @@ section {
 .upsell-block p {
   font-size: 2rem;
 }
+.contacts {
+  background: #ffffff url(../img/contacts-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.contacts h2 {
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.contacts p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contacts-link {
+  display: inline-block;
+  color: #1a1820;
+  border-bottom: 1px dotted #1a1820;
+}
+.contacts-link:hover {
+  color: #020203;
+}
 .popup {
   display: none;
   position: fixed;

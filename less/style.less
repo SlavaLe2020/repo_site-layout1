@@ -537,6 +537,26 @@ section {
     }
 }
 
+.contacts {
+    background: @light url(../img/contacts-bg.jpg) center no-repeat;
+    background-size: cover;
+    h2 {
+        .bold();
+    }
+    p {
+        margin-top: 2rem;
+        margin-bottom: 2rem;   
+    }
+    &-link {
+        display: inline-block;
+        color: @text;
+        border-bottom: 1px dotted @text;
+        &:hover {
+            color: darken(@text, 10%);
+        }
+    }
+}
+
 .popup {
     display: none;
     position: fixed;
