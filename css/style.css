@@ -45,7 +45,8 @@ textarea:focus {
   cursor: pointer;
   background-color: #e3a103;
 }
-.form-input {
+.form-input,
+.form-textarea {
   display: block;
   margin: 2rem 0;
   width: 100%;
@@ -473,6 +474,9 @@ section {
 .tour-subtitle {
   font-size: 2.2rem ;
 }
+.tour-btn {
+  padding: 1rem 2rem;
+}
 .upsell {
   background: #286b0a;
 }
@@ -511,6 +515,11 @@ section {
 }
 .contacts-link:hover {
   color: #020203;
+}
+.contacts-form h2 {
+  font-size: 1.9rem;
+  font-family: 'ProximaNova_reg', sans-serif;
+  margin-bottom: 3rem;
 }
 .popup {
   display: none;
