@@ -7,6 +7,7 @@
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="css/bootstrap.css">
     <title>Автоматизированная штукатурка стен </title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -40,7 +41,7 @@
             <div class="main-content">
                 <div class="row">
                     <div class="col-md-7 col-lg-6 col-sm-12">
-                        <div class="main-title">
+                        <div class="main-title wow fadeInLeft">
                             <h1>Автоматизированная штукатурка стен</h1>
                             <p class="main-subtitle">Идеально ровные стены <br>в кратчайшие сроки</p>
                             <span>
@@ -53,7 +54,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2">
-                        <div class="main-form">
+                        <div class="main-form wow fadeInRight">
                             <h2 class="main-form-header">Для расчета точной стоимости <br>закажите <strong>выезд замерщика</strong></h2>
                             <form  class="form" action="#">
                                 <label for="#">Ваше имя</label>
@@ -76,7 +77,7 @@
                Преимущества работы с нами
            </h2>
            <div class="features-slider">
-               <div class="features-block">
+               <div class="features-block wow fadeInUp" data-wow-delay="0.1s">
                    <div class="features-img">
                         <picture>
                             <source srcset="img/features/coin.svg" type="image/">
@@ -86,7 +87,7 @@
                    <h3>Платите по факту</h3>
                    <p>Вы оплачиваете работы только после их выполнения.<br>Никаких скрытых доплат и промежуточных платежей.</p>
                </div>
-               <div class="features-block">
+               <div class="features-block wow fadeInUp" data-wow-delay="0.2s">
                     <div class="features-img">
                         <picture>
                             <source srcset="img/features/folder.svg" type="image/">
@@ -96,7 +97,7 @@
                    <h3>Заключаем договор</h3>
                    <p>Перед началом работ заключаем договор на юридическое лицо. <br>Вы можете быть уверены, что все обязательства будут выполнены.</p>
                </div>
-               <div class="features-block">
+               <div class="features-block wow fadeInUp" data-wow-delay="0.3s">
                    <div class="features-img">
                         <picture>
                             <source srcset="img/features/clock.svg" type="image/">
@@ -106,7 +107,7 @@
                    <h3>Точно в срок</h3>
                    <p>Работаем строго по установленным срокам, которые прописаны в договоре. Если не успеваем, Вы платите меньше.</p>
                </div>
-               <div class="features-block">
+               <div class="features-block wow fadeInUp" data-wow-delay="0.4s">
                     <div class="features-img">
                         <picture>
                             <source srcset="img/features/piggy-bank.svg" type="image/">
@@ -136,7 +137,7 @@
             </div>
             <div class="row">
                <div class="col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-2">
-                   <div class="price-block">
+                   <div class="price-block wow fadeInUp" data-wow-delay="0.1s">
                        <h4>Штукатурка вашим материалом</h4>
                        <img src="img/prices/1.jpg" alt="Штукатурка вашим материалом">
                        <span class="price-tag">от 300 руб/м<sup>2</sup></span>
@@ -148,7 +149,7 @@
                    </div>
                </div>
                <div class="col-md-4 col-md-offset-0  col-sm-8 col-sm-offset-2">
-                   <div class="price-block">
+                   <div class="price-block wow fadeInUp" data-wow-delay="0.2s">
                        <h4>Штукатурка под шпаклевку</h4>
                        <img src="img/prices/2.jpg" alt="Штукатурка под шпаклевку">
                        <span class="price-tag">от 530 руб/м<sup>2</sup></span>
@@ -162,7 +163,7 @@
                    </div>
                </div>
                <div class="col-md-4 col-md-offset-0  col-sm-8 col-sm-offset-2">
-                   <div class="price-block">
+                   <div class="price-block wow fadeInUp" data-wow-delay="0.3s">
                        <h4>Штукатурка под обои</h4>
                        <img src="img/prices/3.jpg" alt="">
                        <span class="price-tag">от 560 руб/м<sup>2</sup></span>
@@ -735,6 +736,10 @@
     <script src="slick/slick.min.js"></script>
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script>
         $(document).ready(function(){
             $('.popup-btn').on('click', function(event){
