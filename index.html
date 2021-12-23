@@ -58,9 +58,9 @@
                             <h2 class="main-form-header">Для расчета точной стоимости <br>закажите <strong>выезд замерщика</strong></h2>
                             <form  class="form" action="#">
                                 <label for="#">Ваше имя</label>
-                                <input class="form-input" type="text">
+                                <input class="form-input" required type="text">
                                 <label for="#">Номер телефона</label>
-                                <input class="form-input" type="text">
+                                <input class="form-input" required id="phone" type="text">
                                 <button class="form-btn button" type="submit">оставьте заявку</button>
                                 <small>Подарок в день обращения</small>
                             </form>
@@ -737,6 +737,12 @@
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script>
+        jQuery(function($){
+            $("#phone").mask("+7 (999) 999-99-99");
+        });
+    </script>
     <script>
         new WOW().init();
     </script>
